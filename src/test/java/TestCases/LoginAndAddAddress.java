@@ -30,14 +30,14 @@ public class LoginAndAddAddress extends TestInitializer {
             String sheetName = "Data";
             ExcelDataHandler excel = new ExcelDataHandler(excelFilePath, sheetName);
 
-            String email = excel.getCellData(7, 3);
-            String password = excel.getCellData(7, 4);
+            String email = excel.getCellData(15, 3);
+            String password = excel.getCellData(15, 4);
 
             // Address Data
             String addressName = excel.getCellData(11, 1);
             String addressDetails = excel.getCellData(11, 2);
             String city = excel.getCellData(11, 3);
-            String postalCode = excel.getCellData(11, 4);
+            String country = excel.getCellData(11, 4);
             String phone = excel.getCellData(11, 5);
 
             try {
@@ -63,7 +63,7 @@ public class LoginAndAddAddress extends TestInitializer {
                         .addScreenCaptureFromPath(ScreenCapture.takeScreenshot(driver, "Address_Book_Navigate"));
 
                 // Step 4: Add New Address
-                addressBookPage.fillAddressDetails(addressName, addressDetails, city, postalCode, phone);
+                addressBookPage.fillAddressDetails(addressName, addressDetails, city, country, phone);
                 addressBookPage.clickAddAddress();
                 test = extent.createTest("Add New Address", "Adding new address from Excel data");
 
