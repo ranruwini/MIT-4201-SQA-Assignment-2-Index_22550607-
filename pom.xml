@@ -22,12 +22,12 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/CreateAccountAndVerify.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/LoginAndAddAddress.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/LoginandOrder.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/OrderTracking.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/SearchItemAddToCart.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>src/test/resources/TestSuites/WrongLocatorScenario1.xml</suiteXmlFile>-->
+                        <suiteXmlFile>src/test/resources/TestSuites/CreateAccountAndVerify.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestSuites/LoginAndAddAddress.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestSuites/LoginandOrder.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestSuites/OrderTracking.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestSuites/SearchItemAddToCart.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestSuites/WrongLocatorScenario1.xml</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/TestSuites/WrongLocatorScenario2.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
